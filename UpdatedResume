@@ -1,0 +1,224 @@
+%-------------------------
+% Resume in Latex
+% Author: aditya
+
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+ 
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Aditya Aryan} \\ \vspace{1pt}
+    \small 7827565965 $|$ \href{adityaaryan531@gmail.com}{\underline{adityaaryan531@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/aditya-aryan-3aa235249/}{\underline{linkedin.com/in/aditya}} $|$
+     \href{https://aditya3d-portfolio.vercel.app/}{\underline{My Portfolio}} $|$
+    \href{https://github.com/Aytaditya}{\underline{github.com/aditya}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vellore Institute of Technology}{Chennai, India}
+      {Bachelor of Technology, Electrical and Electronics Engineering}{July 2022 -- Present}
+    \resumeSubheading
+      {Ryan Internation school}{New Delhi, India}
+      {High School}{ April 2007 --  May 2021}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+ \resumeSubheading
+      {Blockchain Developer Intern}{July 2024 -- Present}
+      {TimeChain Labs}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Selected as Blockchain developer for TimeChain Summer of Code program. }
+        \resumeItem{Selected for a prestigious 4-month program to contribute to open-source projects focused on blockchain and web3 technologies. }
+    \resumeItemListEnd
+
+ \resumeSubheading
+      {Blockchain Lead}{July 2024 -- Present}
+      {Google Developer Student Club, VIT Chennai}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Promoted to the lead role after 11 months as a member. }
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Web Development Intern}{Oct. 2023 -- Present}
+      {Natt Labs}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{Honing my skills to build dynamic and user-friendly web applications}
+        \resumeItem{ worked as MERN stack developer}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Web Development Intern}{July 2023 -- Oct. 2023}
+      {Anakage Technologies Private Limited}{Karnataka, India}
+      \resumeItemListStart
+        \resumeItem{was front-end developer during internship}
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Avas Gods} $|$ \emph{Solidity, Web3, hardhat, Tailwind, React, Javascript, Typescript, Docker}}{July 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Created a blockchain-powered decentralized card game using Solidity, Hardhat, and OpenZeppelin, emphasizing defensive gameplay mechanics. Utilizing Hardhat for the deployment of smart contract and docker for containerization  }
+            \resumeItem{Integrated Core wallet for secure user authentication and transaction management, and created a dynamic frontend using React and TypeScript. .}
+            \resumeItem{Designed and implemented a robust game logic focusing on defensive strategies to optimize mana refills and enhance gameplay experience. }
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{GitForge} $|$ \emph{MongoDb Atlas, Express, React, NodeJs, Docker, Tailwind, Github API, Javascript }}{May 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{This Project is Github inspired Web application built using MERN, tailwind and Docker integration. It uses passport.js for Github-based user authentication.}
+            \resumeItem{Additionaly, the app features a liking system and top repository exploration section.}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Velocity Mart} $|$ \emph{React, Tailwind, Firebase, Daisy UI, Javascript}}{Mar. 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{VelocityMart is a centralized platform that offers a user-friendly interface for students to browse, negotiate, and access a wide range of resources such as books, mattresses, electrical components, study materials, sports equipment, and lab manuals. It aims to promote sustainable resource sharing within the campus community.}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C, C++, JavaScript, HTML, CSS, MongoDB, Pug, Solidity, Typescript, Astro, Scss} \\
+     \textbf{Frameworks}{: NextJs, React, Node.js, Express, Bootstrap, Tailwind, Hardhat, ShadCN, Web3, Material-UI, Daisy-UI, Chakra-UI } \\
+     \textbf{Developer Tools}{: Android Studio, Visual Studio Code, Pycharm, IntelliJ, Vercel, Netlify, Railway, Git, Postman, Thunder Client, Remix, Metamask, Core, Docker, Firebase} \\
+     \textbf{Softwares}{: ModelSim, R Studio, Labview, LTspice}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
